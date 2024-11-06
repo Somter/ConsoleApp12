@@ -6,7 +6,7 @@ class MainClass
 {
     static void Main()
     {
-        CreditCard card = new CreditCard("1234 5678 9012 3456", "Alex Shevt", new DateTime(2025, 12, 31), 1234, 500, 10);
+        CreditCard card = new CreditCard("1234 5678 9012 3456", "Alex Shevt", new DateTime(2025, 12, 31), 1234, 500, 10); 
 
         // Добавляем подписчков для события OnReplenishment  
         card.OnReplenishment += SubscriberReplenishmentConsole;
